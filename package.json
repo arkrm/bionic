@@ -1,0 +1,33 @@
+{
+  "name": "@arkrm/bionic",
+  "version": "0.0.1",
+  "author": "vdfor",
+  "keywords": ["qurak","arkrm","eslint","prettier","stylelint"],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "index.js",
+    "eslint.js",
+    "prettier.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arkrm/bionic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arkrm/bionic/issues"
+  },
+  "homepage": "https://github.com/arkrm/bionic#readme",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "prettier": "^1.19.1"
+  }
+}
