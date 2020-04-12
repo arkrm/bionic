@@ -10,4 +10,31 @@
 
 </div>
 
-服务于 [quark](https://github.com/arkrm/quark) 项目的 [prettier](https://prettier.io/) [eslint](https://eslint.org/) [stylelint](https://stylelint.io/) 的配置文件合集
+[prettier](https://prettier.io/) [eslint](https://eslint.org/) [stylelint](https://stylelint.io/) 的配置文件合集
+
+> `stylelint` 暂未实现
+
+## install
+
+```bash
+# yarn
+yarn add @arkrm/bionic -D
+# npm 
+npm i @arkrm/bionic -D
+```
+
+## useage
+
+```js
+// .eslintrc.js
+module.exports = {
+  extends: [require.resolve('@arkrm/bionic/eslint')],
+};
+
+// .prettierrc.js
+const bionic = require('@arkrm/bionic');
+
+module.exports = {
+  ...bionic.prettier,
+};
+```
