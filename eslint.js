@@ -37,7 +37,19 @@ module.exports = {
       },
     ],
     'import/no-cycle': ['off'],
-    'import/no-extraneous-dependencies': ['error', { devDependencies: ['(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$','./config/**/*', '.umirc.ts', '*.config.js', '*.config.ts', 'setupTests.ts'] }],
+    'import/no-extraneous-dependencies': ['error', {
+      devDependencies: [
+        '**/*.test.tsx',
+        '**/*.test.ts',
+        '**/*.spec.tsx',
+        '**/*.spec.ts',
+        '__tests__/**/*',
+        './config/**/*',
+        '.umirc.ts',
+        '*.config.ts',
+        'setupTests.ts',
+      ]
+    }],
     'import/no-unresolved': [
       2,
       {
