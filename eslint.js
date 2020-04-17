@@ -37,7 +37,7 @@ module.exports = {
       },
     ],
     'import/no-cycle': ['off'],
-    'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/*.test.tsx', './config/**/*', '.umirc.ts'] }],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/*.test.tsx', './config/**/*', '.umirc.ts', '*.config.js', '*.config.ts'] }],
     'import/no-unresolved': [
       2,
       {
