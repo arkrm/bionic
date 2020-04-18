@@ -41,14 +41,19 @@ module.exports = {
       devDependencies: [
         '**/*.test.tsx',
         '**/*.test.ts',
+        '**/*.test.jsx',
+        '**/*.test.js',
         '**/*.spec.tsx',
         '**/*.spec.ts',
+        '**/*.spec.jsx',
+        '**/*.spec.js',
         '**/*/__test__/**/*',
-        '**/*/__tests__/**/*',
         './config/**/*',
         '.umirc.ts',
         '*.config.ts',
+        '*.config.js',
         'setupTests.ts',
+        'setupTests.js',
       ]
     }],
     'import/no-unresolved': [
