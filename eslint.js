@@ -87,6 +87,7 @@ module.exports = {
     'react/button-has-type': 'off',
     'react/jsx-filename-extension': ['error', { extensions: ['ts', 'tsx'] }],
     'react/jsx-props-no-spreading': ['off'],
+    'react/prop-types': 'off',
   },
   settings: {
     'import/resolver': { node: { extensions: ['.js', '.jsx', '.ts', '.tsx', '.d.ts'] } },
