@@ -26,6 +26,8 @@ module.exports = {
     '@typescript-eslint/indent': ['error', 2],
     '@typescript-eslint/interface-name-prefix': ['error', 'always'],
     '@typescript-eslint/no-explicit-any': ['off'],
+    '@typescript-eslint/no-var-requires': 'off',
+    'global-require': 'off',
     'import/extensions': [
       'error',
       'ignorePackages',
