@@ -15,7 +15,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "release:lerna": "lerna version --exact --no-git-tag-version",
-    "release": "lerna publish"
+    "release": "lerna publish --force-publish=*"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
