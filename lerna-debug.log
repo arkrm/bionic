@@ -1,0 +1,8 @@
+39 warn complete Waiting for 1 child process to exit. CTRL-C to exit immediately.
+40 error Error: Command failed: git tag @arkrm/bionic-taro@3.0.4 -m @arkrm/bionic-taro@3.0.4
+40 error fatal: tag '@arkrm/bionic-taro@3.0.4' already exists
+40 error
+40 error     at makeError (/root/Item/bionic/node_modules/execa/index.js:174:9)
+40 error     at /root/Item/bionic/node_modules/execa/index.js:278:16
+40 error     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+40 error     at async Promise.all (index 0)
