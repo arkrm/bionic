@@ -1,4 +1,4 @@
-<h1 align='center'>@arkrm/bionic</h1>
+<h1 align='center'>@arkrm/bionic-taro</h1>
 
 > `stylelint` 暂未实现
 
