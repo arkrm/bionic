@@ -15,6 +15,8 @@
     "eslint.js",
     "prettier.js"
   ],
+  "homepage": "https://github.com/arkrm/bionic/tree/master/packages/bionic-taro#readme",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
