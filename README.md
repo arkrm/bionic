@@ -2,7 +2,6 @@
 
 <div align='center'>
 
-[![npm (scoped)](https://img.shields.io/npm/v/@arkrm/bionic)](https://www.npmjs.com/package/@arkrm/bionic)
 [![GitHub issues](https://img.shields.io/github/issues/arkrm/bionic)](https://github.com/arkrm/bionic/issues)
 [![GitHub forks](https://img.shields.io/github/forks/arkrm/bionic)](https://github.com/arkrm/bionic/network)
 [![GitHub stars](https://img.shields.io/github/stars/arkrm/bionic)](https://github.com/arkrm/bionic/stargazers)
@@ -14,16 +13,18 @@
 
 > `stylelint` 暂未实现
 
-## install
+## bionic
+
+### install
 
 ```bash
-# yarn
+# yarn 
 yarn add @arkrm/bionic -D
 # npm 
 npm i @arkrm/bionic -D
 ```
 
-## useage
+### useage
 
 ```js
 // .eslintrc.js
@@ -33,6 +34,37 @@ module.exports = {
 
 // .prettierrc.js
 const bionic = require('@arkrm/bionic');
+
+module.exports = {
+  ...bionic.prettier,
+};
+```
+
+
+## bionic-taro
+
+> For [taro](https://github.com/NervJS/taro) project
+
+### install
+
+```bash
+# yarn 
+# eslint-config-taro 与项目 taro 版本号统一，根据实际确定
+yarn add @arkrm/bionic-taro eslint@^6.8.0 eslint-config-taro@xxx -D
+# npm 
+npm i @arkrm/bionic-taro eslint@^6.8.0 eslint-config-taro@xxx -D
+```
+
+### useage
+
+```js
+// .eslintrc.js
+module.exports = {
+  extends: [require.resolve('@arkrm/bionic-taro/eslint')],
+};
+
+// .prettierrc.js
+const bionic = require('@arkrm/bionic-taro');
 
 module.exports = {
   ...bionic.prettier,

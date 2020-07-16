@@ -1,0 +1,38 @@
+{
+  "name": "@arkrm/bionic-taro",
+  "version": "2.0.0",
+  "author": "vdfor",
+  "keywords": [
+    "qurak",
+    "taro",
+    "arkrm",
+    "eslint",
+    "prettier",
+    "stylelint"
+  ],
+  "main": "dist/index.js",
+  "files": [
+    "index.js",
+    "eslint.js",
+    "prettier.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 6.8.0",
+    "eslint-config-taro": ">= 3.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.x",
+    "@typescript-eslint/parser": "^2.x",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "prettier": "^2.0.5",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-taro": "^3.0.0"
+  }
+}
