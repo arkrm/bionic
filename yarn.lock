@@ -2326,10 +2326,10 @@ eslint-config-prettier@^6.11.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-taro@3.0.4:
-  version "3.0.4"
-  resolved "https://registry.npm.taobao.org/eslint-config-taro/download/eslint-config-taro-3.0.4.tgz?cache=0&sync_timestamp=1594865877298&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint-config-taro%2Fdownload%2Feslint-config-taro-3.0.4.tgz#4e27fc2f6a2c859064793c30e5ee40ea69499954"
-  integrity sha1-Tif8L2oshZBkeTww5e5A6mlJmVQ=
+eslint-config-taro@3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/eslint-config-taro/-/eslint-config-taro-3.0.5.tgz#b173ed977002e615e8704f898d4713b8d3d7a759"
+  integrity sha512-gybPsR6q2THHE87EQFNulrODqTBKiCQqD7l5pXFvPCCh95DSfBg/sXnRVvDrjlIAiuwWZKaT53h/+1y4w9WpIA==
   dependencies:
     "@typescript-eslint/parser" "^2.x"
     babel-eslint "^10.0.0"
