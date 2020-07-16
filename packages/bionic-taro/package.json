@@ -7,8 +7,7 @@
     "taro",
     "arkrm",
     "eslint",
-    "prettier",
-    "stylelint"
+    "prettier"
   ],
   "main": "dist/index.js",
   "files": [
@@ -19,24 +18,18 @@
   "publishConfig": {
     "access": "public"
   },
-  "peerDependencies": {
-    "eslint": ">= 6.8.0",
-    "eslint-config-taro": ">= 3.0.0"
-  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.x",
     "@typescript-eslint/parser": "^2.x",
+    "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-config-taro": "3.0.4",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.6.1",
-    "prettier": "^2.0.5",
+    "prettier": "^1.19.1",
     "typescript": "^3.8.3"
-  },
-  "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-taro": "^3.0.0"
   },
   "gitHead": "3913beb20aae577649baa9098d6b33fc538d2cbc"
 }
