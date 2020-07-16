@@ -1,6 +1,6 @@
 {
   "name": "@arkrm/bionic-taro",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": "vdfor",
   "keywords": [
     "qurak",
@@ -34,5 +34,6 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-taro": "^3.0.0"
-  }
+  },
+  "gitHead": "3913beb20aae577649baa9098d6b33fc538d2cbc"
 }
