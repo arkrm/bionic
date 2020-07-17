@@ -50,7 +50,6 @@ module.exports = {
   'no-undef': 'off',
   'no-useless-constructor': 'off',
   'react/button-has-type': 'off',
-  'react/forbid-elements': ['error', { forbid: forbidElements }],
   'react/jsx-filename-extension': ['error', { extensions: ['js', 'jsx', 'ts', 'tsx'] }],
   'react/jsx-props-no-spreading': 'off',
   'react/prop-types': 'off',
