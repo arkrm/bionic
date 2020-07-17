@@ -1,6 +1,6 @@
 {
   "name": "@arkrm/bionic",
-  "version": "4.0.0",
+  "version": "4.1.0-beta.0",
   "author": "vdfor",
   "keywords": [
     "qurak",
@@ -33,18 +33,18 @@
     "release:next": "yarn publish --tag=next",
     "release:beta": "yarn publish --tag=beta"
   },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.6.1",
-    "@typescript-eslint/parser": "^3.6.1",
-    "eslint": "^7.4.0",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.3",
-    "eslint-plugin-react-hooks": "^4.0.8",
-    "prettier": "^2.0.5",
-    "typescript": "^3.9.7"
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">= 3",
+    "@typescript-eslint/parser": ">= 3",
+    "eslint": ">= 7",
+    "eslint-config-airbnb": ">= 18.2.0",
+    "eslint-config-prettier": ">= 6.11.0",
+    "eslint-plugin-import": ">= 2.22.0",
+    "eslint-plugin-jsx-a11y": ">= 6.3.1",
+    "eslint-plugin-prettier": ">= 3.1.4",
+    "eslint-plugin-react": ">= 7.20.3",
+    "eslint-plugin-react-hooks": ">= 4.0.8",
+    "prettier": ">= 2.0.5",
+    "typescript": ">= 3.7.2"
   }
 }
