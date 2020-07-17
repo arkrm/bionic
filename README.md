@@ -14,7 +14,7 @@
 
 > `stylelint` 暂未实现
 
-## install
+## INSTALL
 
 ```bash
 # yarn
@@ -23,23 +23,23 @@ yarn add @arkrm/bionic -D
 npm i @arkrm/bionic -D
 ```
 
-## useage
+## USEAGE
 
 ```js
-// .eslintrc.js
-
-// for umi
+// .eslintrc.js (for umi project)
 module.exports = {
   extends: [require.resolve('@arkrm/bionic/eslint/umi')],
 };
 
-// for taro
+// .eslintrc.js (for taro project)
 module.exports = {
   extends: [require.resolve('@arkrm/bionic/eslint/taro')],
 };
 
 // .prettierrc.js
-const prettierConfig = require('@arkrm/bionic/prettier');
-
-module.exports = prettierConfig;
+module.exports = require('@arkrm/bionic/prettier');;
 ```
+
+## TIPS
+
++ [taro](https://github.com/nervjs/taro) 仅适用于 `>=3.x` 版本，且上层框架为 `react`
