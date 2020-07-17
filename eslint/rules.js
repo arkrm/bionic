@@ -37,6 +37,14 @@ module.exports = {
       devDependencies: ['**/**.test.{ts,js,jsx,tsx}', '**/**.spec.{ts,js,jsx,tsx}', '**/*/__test__/**/*'],
     },
   ],
+  'import/no-unresolved': [
+    2,
+    {
+      ignore: ['^@/'],
+      caseSensitive: true,
+      commonjs: true,
+    },
+  ],
   'import/prefer-default-export': 'off',
   'jsx-a11y/anchor-is-valid': 'off',
   'jsx-a11y/click-events-have-key-events': 'off',
