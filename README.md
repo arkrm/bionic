@@ -2,6 +2,7 @@
 
 <div align='center'>
 
+[![npm (scoped)](https://img.shields.io/npm/v/@arkrm/bionic)](https://www.npmjs.com/package/@arkrm/bionic)
 [![GitHub issues](https://img.shields.io/github/issues/arkrm/bionic)](https://github.com/arkrm/bionic/issues)
 [![GitHub forks](https://img.shields.io/github/forks/arkrm/bionic)](https://github.com/arkrm/bionic/network)
 [![GitHub stars](https://img.shields.io/github/stars/arkrm/bionic)](https://github.com/arkrm/bionic/stargazers)
@@ -13,8 +14,32 @@
 
 > `stylelint` 暂未实现
 
-## PACKAGES
+## install
 
-[@arkrm/bionic](https://github.com/arkrm/bionic/tree/master/packages/bionic) [![npm (scoped)](https://img.shields.io/npm/v/@arkrm/bionic)](https://www.npmjs.com/package/@arkrm/bionic)
+```bash
+# yarn
+yarn add @arkrm/bionic -D
+# npm 
+npm i @arkrm/bionic -D
+```
 
-[@arkrm/bionic-taro](https://github.com/arkrm/bionic/tree/master/packages/bionic) [![npm (scoped)](https://img.shields.io/npm/v/@arkrm/bionic-taro)](https://www.npmjs.com/package/@arkrm/bionic-taro)
+## useage
+
+```js
+// .eslintrc.js
+
+// for umi
+module.exports = {
+  extends: [require.resolve('@arkrm/bionic/eslint/umi')],
+};
+
+// for taro
+module.exports = {
+  extends: [require.resolve('@arkrm/bionic/eslint/taro')],
+};
+
+// .prettierrc.js
+const prettierConfig = require('@arkrm/bionic/prettier');
+
+module.exports = prettierConfig;
+```

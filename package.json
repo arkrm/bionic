@@ -1,6 +1,6 @@
 {
   "name": "@arkrm/bionic",
-  "version": "4.0.0-beta1",
+  "version": "4.0.0-beta.0",
   "author": "vdfor",
   "keywords": [
     "qurak",
@@ -29,6 +29,7 @@
     "access": "public"
   },
   "scripts": {
+    "publish:next": "yarn publish --tag=next",
     "publish:beta": "yarn publish --tag=beta"
   },
   "dependencies": {
