@@ -1,6 +1,4 @@
-<h1 align='center'>@arkrm/bionic</h1>
-
-<div align='center'>
+# @arkrm/bionic
 
 [![npm (scoped)](https://img.shields.io/npm/v/@arkrm/bionic)](https://www.npmjs.com/package/@arkrm/bionic)
 [![GitHub issues](https://img.shields.io/github/issues/arkrm/bionic)](https://github.com/arkrm/bionic/issues)
