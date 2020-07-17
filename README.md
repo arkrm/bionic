@@ -18,7 +18,7 @@
 
 ```bash
 # npx 会自动识别 npm/yarn
-npx install-peerdeps @armrk/bionic -D
+npx install-peerdeps @arkrm/bionic -D
 ```
 
 ## USEAGE
