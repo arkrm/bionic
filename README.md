@@ -15,8 +15,11 @@
 ## INSTALL
 
 ```bash
-# npx 会自动识别 npm/yarn
-npx install-peerdeps @arkrm/bionic -D
+# install with yarn
+yarn add @arkrm/bionic -D
+
+# install with npm
+npm i @arkrm/bionic -D
 ```
 
 ## USEAGE

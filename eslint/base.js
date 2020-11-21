@@ -8,16 +8,22 @@ module.exports = {
     jasmine: true,
   },
   parser: require.resolve('@typescript-eslint/parser'),
-  plugins: ['@typescript-eslint'],
-  extends: ['airbnb', 'airbnb/hooks', 'plugin:prettier/recommended', 'prettier/react', 'prettier/@typescript-eslint'],
+  plugins: ['jest'],
+  extends: [
+    'airbnb',
+    'airbnb-typescript',
+    'airbnb/hooks',
+    'plugin:prettier/recommended',
+    'prettier/react',
+    'prettier/@typescript-eslint'
+  ],
   parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
+    project: './tsconfig.json',
     ecmaFeatures: {
       jsx: true,
     },
     useJSXTextNode: true,
-    warnOnUnsupportedTypeScriptVersion: true,
+    warnOnUnsupportedTypeScriptVersion: false,
   },
   root: true,
   settings: {

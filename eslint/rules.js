@@ -59,6 +59,7 @@ module.exports = {
   'no-useless-constructor': 'off',
   'react/button-has-type': 'off',
   'react/jsx-filename-extension': ['error', { extensions: ['js', 'jsx', 'ts', 'tsx'] }],
+  'react/jsx-key': ['error', { checkFragmentShorthand: true }],
   'react/jsx-props-no-spreading': 'off',
   'react/require-default-props': 'off',
   'react/prop-types': 'off',

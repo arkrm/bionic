@@ -12,7 +12,7 @@ module.exports = {
       },
     },
   ],
-  printWidth: 150,
+  printWidth: 200,
   singleQuote: true,
   trailingComma: 'all',
 };
