@@ -36,7 +36,7 @@ module.exports = {
 };
 
 // .prettierrc.js
-module.exports = require('@arkrm/bionic/prettier');;
+module.exports = require('@arkrm/bionic/prettier');
 ```
 
 ## TIPS
