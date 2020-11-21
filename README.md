@@ -15,8 +15,11 @@
 ## INSTALL
 
 ```bash
-# npx 会自动识别 npm/yarn
-npx install-peerdeps @arkrm/bionic -D
+# install with yarn
+yarn add @arkrm/bionic -D
+
+# install with npm
+npm i @arkrm/bionic -D
 ```
 
 ## USEAGE
@@ -33,9 +36,32 @@ module.exports = {
 };
 
 // .prettierrc.js
-module.exports = require('@arkrm/bionic/prettier');;
+module.exports = require('@arkrm/bionic/prettier');
 ```
 
 ## TIPS
 
 + [taro](https://github.com/nervjs/taro) 仅适用于 `>=3.x` 版本，且上层框架为 `react`
+
+## VSCode config example
+
+```json
+// .vscode/settings.json
+{
+  "eslint.validate": ["javascript", "typescript", "typescriptreact"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+}
+```

@@ -9,7 +9,6 @@ const forbidElements = htmlTags.map((tag) => ({
 
 module.exports = Object.assign({}, require('./base'), {
   rules: Object.assign({}, rules, {
-    'class-methods-use-this': 'off',
     'react/forbid-elements': ['error', { forbid: forbidElements }],
   }),
 });
