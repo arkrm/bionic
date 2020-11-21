@@ -1,6 +1,6 @@
 {
   "name": "@arkrm/bionic",
-  "version": "5.0.0-beta.0",
+  "version": "5.0.0-beta.1",
   "author": "vdfor",
   "keywords": [
     "qurak",
@@ -33,7 +33,7 @@
     "release:next": "yarn publish --tag=next",
     "release:beta": "yarn publish --tag=beta"
   },
-  "peerDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.8.1",
     "@typescript-eslint/parser": "^4.8.1",
     "eslint": "^7.14.0",
