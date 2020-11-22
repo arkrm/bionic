@@ -8,12 +8,11 @@ module.exports = {
     jasmine: true,
   },
   parser: require.resolve('@typescript-eslint/parser'),
-  plugins: ['jest'],
+  plugins: ['jest', 'react-hooks'],
   extends: [
     'airbnb',
     'airbnb-typescript',
-    'airbnb/hooks',
-    'plugin:prettier/recommended',
+    'prettier',
     'prettier/react',
     'prettier/@typescript-eslint'
   ],

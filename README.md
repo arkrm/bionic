@@ -39,7 +39,7 @@ module.exports = {
 module.exports = require('@arkrm/bionic/prettier');
 ```
 
-## TIPS
+## Tips
 
 + [taro](https://github.com/nervjs/taro) 仅适用于 `>=3.x` 版本，且上层框架为 `react`
 
@@ -49,18 +49,6 @@ module.exports = require('@arkrm/bionic/prettier');
 // .vscode/settings.json
 {
   "eslint.validate": ["javascript", "typescript", "typescriptreact"],
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "[javascript]": {
-    "editor.formatOnSave": false
-  },
-  "[typescript]": {
-    "editor.formatOnSave": false
-  },
-  "[typescriptreact]": {
-    "editor.formatOnSave": false
-  },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 }
