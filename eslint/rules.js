@@ -27,6 +27,7 @@ module.exports = {
     },
   ],
   '@typescript-eslint/no-useless-constructor': 'warn',
+  'arrow-parens': ['error', 'always'],
   'default-case': 'off',
   'global-require': 'off',
   'import/extensions': 'off',
@@ -34,13 +35,18 @@ module.exports = {
   'import/no-extraneous-dependencies': [
     'error',
     {
-      devDependencies: ['**/**.test.{ts,js,jsx,tsx}', '**/**.spec.{ts,js,jsx,tsx}', '**/*/__test__/**/*'],
+      devDependencies: [
+        '**/**.test.{ts,js,jsx,tsx}',
+        '**/**.spec.{ts,js,jsx,tsx}',
+        '**/*/__test__/**/*',
+        './config/**/*',
+        '.umirc.ts'],
     },
   ],
   'import/no-unresolved': [
-    2,
+    'error',
     {
-      ignore: ['^@/'],
+      ignore: ['^@/', '^@@/'],
       caseSensitive: true,
       commonjs: true,
     },
@@ -58,11 +64,13 @@ module.exports = {
   'no-undef': 'off',
   'no-useless-constructor': 'off',
   'react/button-has-type': 'off',
+  'react/forbid-elements': 'off',
   'react-hooks/rules-of-hooks': 'error',
   'react-hooks/exhaustive-deps': 'error',
   'react/jsx-filename-extension': ['error', { extensions: ['js', 'jsx', 'ts', 'tsx'] }],
   'react/jsx-key': ['error', { checkFragmentShorthand: true }],
   'react/jsx-props-no-spreading': 'off',
   'react/require-default-props': 'off',
+  'react/self-closing-comp': 'error',
   'react/prop-types': 'off',
 }

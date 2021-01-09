@@ -1,4 +1,5 @@
 module.exports = {
+  arrowParens: 'always',
   endOfLine: 'auto',
   overrides: [
     {
