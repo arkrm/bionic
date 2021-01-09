@@ -25,31 +25,46 @@ npm i @arkrm/bionic -D
 ## USEAGE
 
 ```js
-// .eslintrc.js (for umi project)
+// .eslintrc.js
 module.exports = {
-  extends: [require.resolve('@arkrm/bionic/eslint/umi')],
-};
-
-// .eslintrc.js (for taro project)
-module.exports = {
-  extends: [require.resolve('@arkrm/bionic/eslint/taro')],
+  extends: [require.resolve("@arkrm/bionic/eslint/index")],
 };
 
 // .prettierrc.js
-module.exports = require('@arkrm/bionic/prettier');
+module.exports = require("@arkrm/bionic/prettier");
 ```
 
 ## Tips
 
-+ [taro](https://github.com/nervjs/taro) 仅适用于 `>=3.x` 版本，且上层框架为 `react`
+- 适用于 `umi` 工程
+- 适用于 [taro](https://github.com/nervjs/taro) 工程，但要求 `taro` 版本为 `3.x`, 且上层框架为 `react`
 
 ## VSCode config example
 
 ```json
 // .vscode/settings.json
 {
+  "editor.tabSize": 2,
+  "npm.packageManager": "yarn",
   "eslint.validate": ["javascript", "typescript", "typescriptreact"],
+  "eslint.packageManager": "yarn",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.packageManager": "yarn"
 }
 ```

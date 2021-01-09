@@ -34,13 +34,18 @@ module.exports = {
   'import/no-extraneous-dependencies': [
     'error',
     {
-      devDependencies: ['**/**.test.{ts,js,jsx,tsx}', '**/**.spec.{ts,js,jsx,tsx}', '**/*/__test__/**/*'],
+      devDependencies: [
+        '**/**.test.{ts,js,jsx,tsx}',
+        '**/**.spec.{ts,js,jsx,tsx}',
+        '**/*/__test__/**/*',
+        './config/**/*',
+        '.umirc.ts'],
     },
   ],
   'import/no-unresolved': [
-    2,
+    'error',
     {
-      ignore: ['^@/'],
+      ignore: ['^@/', '^@@/'],
       caseSensitive: true,
       commonjs: true,
     },
