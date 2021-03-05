@@ -40,7 +40,8 @@ module.exports = {
         '**/**.spec.{ts,js,jsx,tsx}',
         '**/*/__test__/**/*',
         './config/**/*',
-        '.umirc.ts'],
+        '.umirc.ts'
+      ],
     },
   ],
   'import/no-unresolved': [
