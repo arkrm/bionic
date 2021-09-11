@@ -71,6 +71,8 @@ module.exports = {
   'react/jsx-filename-extension': ['error', { extensions: ['js', 'jsx', 'ts', 'tsx'] }],
   'react/jsx-key': ['error', { checkFragmentShorthand: true }],
   'react/jsx-props-no-spreading': 'off',
+  'react/jsx-uses-react': 'off',
+  'react/react-in-jsx-scope': 'off',
   'react/require-default-props': 'off',
   'react/self-closing-comp': 'error',
   'react/prop-types': 'off',

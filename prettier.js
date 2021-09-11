@@ -13,6 +13,8 @@ module.exports = {
       },
     },
   ],
+  useTabs: false,
+  semi: true,
   printWidth: 200,
   singleQuote: true,
   trailingComma: 'all',
