@@ -69,6 +69,7 @@ module.exports = {
   'react-hooks/rules-of-hooks': 'error',
   'react-hooks/exhaustive-deps': 'error',
   'react/jsx-filename-extension': ['error', { extensions: ['js', 'jsx', 'ts', 'tsx'] }],
+  'react/jsx-fragments': 'off',
   'react/jsx-key': ['error', { checkFragmentShorthand: true }],
   'react/jsx-props-no-spreading': 'off',
   'react/jsx-uses-react': 'off',
